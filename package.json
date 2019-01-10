@@ -1,0 +1,22 @@
+{
+  "name": "troutslap",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DFriends need to be politely reminded when they are wrong\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[B\u001b[A\u001b[C\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehawk82/troutSlap.git"
+  },
+  "keywords": [
+    "\"\"\u001b[D\u001b[C\u001b[DtroutSlap\u001b[C\u001b[D\""
+  ],
+  "author": "Jason \"\"\u001b[DEhawk LLC\u001b[C\u001b[D\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ehawk82/troutSlap/issues"
+  },
+  "homepage": "https://github.com/Ehawk82/troutSlap#readme"
+}
