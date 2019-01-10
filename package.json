@@ -1,11 +1,11 @@
 {
   "name": "troutslap",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "\"\"\u001b[DFriends need to be politely reminded when they are wrong\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[B\u001b[A\u001b[C\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "echo \" Error: random attempt\" && exit 1"
+    "start": "node ./src/js/index.js"
   },
   "repository": {
     "type": "git",
