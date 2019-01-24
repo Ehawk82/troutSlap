@@ -1,0 +1,104 @@
+.troutBtn {
+	transition: 200ms all;
+	background-image: url("../assets/trout-img.png");
+	background-size: 35px 35px;
+	background-color: lightgrey;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:50px;
+	width:50px;
+	border-radius: 50%;
+	border-style:outset;
+	outline: none;
+}
+.troutBtn_locked {
+	transition: 200ms all;
+	background-image: url("../assets/trout-img.png");
+	background-size: 35px 35px;
+	background-color: darkgrey;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:50px;
+	width:50px;
+	border-style: inset;
+	border-radius: 50%;
+	outline: none;
+}
+.troutHolder {
+	transition: 500ms all;
+	position:fixed;
+	top:0;
+	left:0;
+	height: 100vh;
+	width:100vw;
+	opacity: 0;
+	background-color: rgba(30,30,30,0.7);
+}
+.troutHolder_full {
+	transition: 500ms all;
+	position:fixed;
+	top:0;
+	left:0;
+	height: 100vh;
+	width:100vw;
+	opacity: 1;
+	background-color: rgba(30,30,30,0.7);
+}
+.troutImg {
+	transition: 1s all;
+	background-image: url("../assets/trout-img.png");
+	background-size: 30vw 30vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top:100vh;
+	left:35vw;
+	z-index: 5;
+	height: 30vw;
+	width:30vw;
+}
+.troutImg_full {
+	transition: 1s all;
+	background-image: url("../assets/trout-img.png");
+	background-size: 30vw 30vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left:35vw;
+	top:22vh;
+	z-index: 5;
+	height: 30vw;
+	width:30vw;
+}
+.slapImg {
+	transition: 100ms all;
+	transition-delay: 800ms;
+	background-image: url("../assets/slap-img.GIF");
+	background-size: .5vw .5vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left:49vw;
+	top:20vh;
+	opacity: 0;
+	z-index: 5;
+	height: 2vw;
+	width:2vw;
+
+}
+.slapImg_full {
+	transition: 100ms all;
+	transition-delay: 800ms;
+	background-image: url("../assets/slap-img.GIF");
+	background-size: 60vw 60vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left:20vw;
+	top:0;
+	opacity: 1;
+	z-index: 5;
+	height: 60vw;
+	width:60vw;
+
+}

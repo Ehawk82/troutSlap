@@ -1,3 +1,3 @@
-console.log("gonna do things differently");
+console.log("js for server goes here");
 
 

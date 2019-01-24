@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Ehawk82/troutSlap/issues"
   },
-  "homepage": "https://github.com/Ehawk82/troutSlap#readme"
+  "homepage": "https://github.com/Ehawk82/troutSlap#readme",
+  "devDependencies": {
+    "gScript2019": "git+https://github.com/Ehawk82/gScript2019.git"
+  }
 }
