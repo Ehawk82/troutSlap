@@ -102,3 +102,23 @@
 	width:60vw;
 
 }
+.ooofBtn {
+	transition: 1s all;
+	transition-delay: 800ms;
+	position: absolute;
+	top:100vh;
+	left:48vw;
+	z-index: 5;
+	height: 4vw;
+	width:4vw;
+}
+.ooofBtn_full {
+	transition: 1s all;
+	transition-delay: 800ms;
+	position: absolute;
+	top:90vh;
+	left:48vw;
+	z-index: 5;
+	height: 4vw;
+	width:4vw;
+}
