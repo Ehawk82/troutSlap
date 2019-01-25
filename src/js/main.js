@@ -16,7 +16,11 @@ myUI = {
 	},
 	generateTrout: (troutBtn) => {
 		return () => {
+            var whoosh = new Audio("src/assets/whoosh.wav"),
+                tic = new Audio("src/assets/tic.wav"),
+                slap = new Audio("src/assets/slap.wav");
             troutBtn.onclick = null;
+            playClick(tic);
             makeLock(troutBtn);
             var troutHolder = createEle("div"),
                 troutImg = createEle("div"),
@@ -35,13 +39,20 @@ myUI = {
 
  
             body.append(troutHolder);
-
+            
+            
             setTimeout(() => {
             	makeFull(troutHolder);
             	setTimeout(() => {
+                    playClick(whoosh);
             		makeFull(troutImg);
             		setTimeout(() => {
+                        
+
             		    makeFull(slapImg);
+                        setTimeout(() => {
+                            playClick(slap);
+                        }, 800)
             	    }, 400);
             	}, 400);
             }, 400);
