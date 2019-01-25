@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Ehawk82/troutSlap#readme",
   "devDependencies": {
-    "gScript2019": "git+https://github.com/Ehawk82/gScript2019.git"
+    "gScript2019": "git+https://github.com/Ehawk82/gScript2019.git",
+    "soundmod": "git+https://github.com/Ehawk82/soundMod.git"
   }
 }
