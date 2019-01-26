@@ -9,10 +9,9 @@ ___
 
 situations: 
 
-"You're an anti vaxxer?" */*Trout Slap*/*
+"You're an anti vaxxer?" /* *Trout Slap* /*
 
 words to note:
 
 Nostalgia, social, angst, friends 
 
-[this entry was updated from a remote devices as a test on 1/11/19]
