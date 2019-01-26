@@ -9,7 +9,7 @@ ___
 
 situations: 
 
-"You're an anti vaxxer?" /* *Trout Slap* /*
+"You're an anti vaxxer?"  *Trout Slap* 
 
 words to note:
 
