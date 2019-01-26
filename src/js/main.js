@@ -52,12 +52,15 @@ myUI = {
             setTimeout(() => {
             	makeFull(troutHolder);
             	setTimeout(() => {
-                    playClick(whoosh);
+                    playHighClick(whoosh);
             		makeFull(troutImg);
             		setTimeout(() => {
             		    makeFull(slapImg);
                         setTimeout(() => {
                             playClick(slap);
+                            setTimeout(() => { 
+                                playClick(slap);
+                            },30);
                             makeFull(ooofBtn);
                         }, 800)
             	    }, 400);
